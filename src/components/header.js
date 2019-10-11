@@ -1,6 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "../styles/style.css"
+import "../styles/reset.css"
+import "../resource/jquery-2.1.1.js"
+import "../resource/main.js"
+import "../resource/modernizr.js"
 
 const Header = ({ siteTitle }) => (
   <header
