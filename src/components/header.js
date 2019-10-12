@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
         style={{
           display: `flex`,
           flexDirection: `row-reverse`,
-          marginTop: `75px`,
+          marginTop: `70px`,
         }}
       >
         <div style={{ width: `300px` }}>
