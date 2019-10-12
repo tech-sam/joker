@@ -1,11 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "../styles/style.css"
-import "../styles/reset.css"
-import "../resource/jquery-2.1.1.js"
-import "../resource/main.js"
-import "../resource/modernizr.js"
+import Fade from "react-reveal/Fade"
+import Image from "../components/image"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -22,27 +19,33 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <Image />
+      </div> */}
+
+      <div
+        style={{
+          display: `flex`,
+          flexDirection: `row-reverse`,
+          marginTop: `75px`,
+        }}
+      >
+        <div style={{ width: `300px` }}>
+          <Image />
+        </div>
+      </div>
     </div>
   </header>
 )
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  showFade: PropTypes.bool,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  showFade: true,
 }
 
 export default Header
