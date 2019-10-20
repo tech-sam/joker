@@ -33,7 +33,7 @@ const Image = () => {
         borderRadius: `50%`,
         MozBoxShadow: `0px 6px 5px #ccc`,
         WebkitBoxShadow: `0px 6px 5px #ccc`,
-        boxShadow: `0px 6px 5px #ccc;`,
+        boxShadow: `0px 6px 5px #ccc`,
         MozBorderRadius: `190px`,
         WebkitBorderRadius: `190px`,
       }}
