@@ -7,8 +7,11 @@ import Image from "../components/image"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      //  background: `black`,
       marginBottom: `1.45rem`,
+      backgroundColor: `#000000`,
+      backgroundImage: `linear-gradient(315deg, #000000 0%, #414141 74%)`,
+      // background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     }}
   >
     <div
@@ -30,25 +33,30 @@ const Header = ({ siteTitle }) => (
       >
         <div
           style={{
-            width: `400px`,
+            width: `430px`,
             textAlign: `center`,
-            margin: `10px`,
+            marginRight: `100px`,
             wordSpacing: `normal`,
             color: `white`,
             letterSpacing: `0`,
           }}
         >
           <h1>Heyo, I'm Sumit!</h1>
-          <div className="subtext">
-            this is test textsdfsdfsdfsfsfdfsdfthis is test
-            textsdfsdfsdfsfsfdfsdfthis is test textsdfsdfsdfsfsfdfsdf
+          <div>In love with programming since =~ 1325376732</div>
+
+          <div>
+            shouting <span style={{ fontStyle: `italic` }}>hello world!</span>{" "}
+            in more than 5 languages.
           </div>
-          <div>this is test textsdfsdfsdfsfsfdfsdf</div>
-          <div>this is test textsdfsdfsdfsfsfdfsdf</div>
-          <div>this is test textsdfsdfsdfsfsfdfsdf</div>
         </div>
 
-        <div style={{ width: `300px`, textAlign: `center`, margin: `10px` }}>
+        <div
+          style={{
+            width: `300px`,
+            textAlign: `center`,
+            margin: `10px`,
+          }}
+        >
           <Image />
         </div>
       </div>
