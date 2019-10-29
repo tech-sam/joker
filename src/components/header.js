@@ -1,19 +1,9 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Fade from "react-reveal/Fade"
 import Image from "../components/image"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      //  background: `black`,
-      marginBottom: `1.45rem`,
-      backgroundColor: `#000000`,
-      backgroundImage: `linear-gradient(315deg, #000000 0%, #414141 74%)`,
-      // background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-    }}
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
