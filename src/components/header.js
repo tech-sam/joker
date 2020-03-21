@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             letterSpacing: `0`,
           }}
         >
-          <h1>Heyo, I'm Sumit!</h1>
+          <h1>Heyo, I'm Sumit !</h1>
           <div>In love with programming since =~ 1325376732</div>
 
           <div>
